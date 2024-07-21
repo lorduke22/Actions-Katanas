@@ -1,7 +1,5 @@
 name: Main workflow
-on:
-  pull_request:
-    types: [ labeled ]
+on: push
 env:
   docker_username: mugman22
   docker_password: ${{ secrets.GITHUB_TOKEN }}
