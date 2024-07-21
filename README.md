@@ -37,4 +37,5 @@ This repository contains a set of exercises to learn Github Actions.
 * Use Linting
   * Download artifact created in the previous step
   * Run linting
-* Build application packaged as a docker image
+* Build application packaged as a docker image (ghrc)
+* Component test & Performance test
