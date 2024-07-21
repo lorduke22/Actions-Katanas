@@ -1,5 +1,7 @@
 name: Main workflow
-on: push
+on:
+  pull_request:
+    types: [labeled]
 env:
   docker_username: ${{ github.actor }}
   docker_password: ${{ secrets.GITHUB_TOKEN }}
