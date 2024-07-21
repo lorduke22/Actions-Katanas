@@ -39,3 +39,4 @@ This repository contains a set of exercises to learn Github Actions.
   * Run linting
 * Build application packaged as a docker image (ghrc)
 * Component test & Performance test
+* Reusable workflow
